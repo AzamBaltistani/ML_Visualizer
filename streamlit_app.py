@@ -15,6 +15,11 @@ pages = st.navigation(
             page="views/Regression/user_interface.py",
             title="Regression",
             url_path="regression"
+        ),
+        st.Page(
+            page="views/KMeans/user_interface.py",
+            title="K-Means",
+            url_path="kmeans"
         )
     ]
 )

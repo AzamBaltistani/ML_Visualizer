@@ -20,6 +20,11 @@ pages = st.navigation(
             page="views/KMeans/user_interface.py",
             title="K-Means",
             url_path="kmeans"
+        ),
+        st.Page(
+            page="views/DBSCAN/user_interface.py",
+            title="DBSCAN",
+            url_path="dbscan"
         )
     ]
 )
